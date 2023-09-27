@@ -12,6 +12,8 @@ function Calculadora() {
             const alturaEmMetros = altura / 100;
             const imc = peso / (alturaEmMetros * alturaEmMetros)
             setResultado(imc.toFixed(2));
+            setPeso('')
+            setAltura('')
         } else {
             setResultado(null)
         }
@@ -44,7 +46,7 @@ function Calculadora() {
                 {resultado && (
                     <div>
                         <h2>Seu IMC é <span>{resultado}</span></h2>
-                        <img src="./img/tabela-imc.png" alt="tabela-imc" />
+                        <img src="src/img/tabela-imc.png" alt="tabela-imc" />
                     </div>
                 )}
             </div>
