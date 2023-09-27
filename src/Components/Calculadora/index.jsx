@@ -46,7 +46,7 @@ function Calculadora() {
                 {resultado && (
                     <div>
                         <h2>Seu IMC é <span>{resultado}</span></h2>
-                        <img src="src/img/tabela.png" alt="tabela-imc" />
+                        <img src="https://www.drrogermoura.com.br/images/artigos/tabela-imc.png" alt="tabela-imc" />
                     </div>
                 )}
             </div>
